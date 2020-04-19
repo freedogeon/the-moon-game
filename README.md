@@ -37,7 +37,7 @@ To prove our fairness we have generated a chain of 100,000,000 SHA256 hashes whe
 
 The formula for generating the game result: 
 ```javascript
-//hashChain is the chain of 100,000,000 SHA256 hashes which these hashes are already generated.
+//hashChain is the chain of 100,000,000 SHA256 hashes which are already generated.
 //get the last hash of the chain
 const gameHash = hashChain.pop();
 
