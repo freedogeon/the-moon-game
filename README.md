@@ -31,7 +31,7 @@ EV value = conditional EV value * the probability that the player sees x
 0.99
 ```
 
-# Verification
+# Source Code
 
 To prove our fairness we have generated a chain of 100,000,000 SHA256 hashes where each hash is the hash of the hexadecimal representation of the previous hash.
 
@@ -76,3 +76,6 @@ function generatePrevHash(prevHash, length=10){
   }
 }
 ```
+
+Simply, you can verify and generate the previous hash chain in here: (https://freedogeon.github.io/the-moon-game/)[https://freedogeon.github.io/the-moon-game/]
+You can find the source at `index.html` file.
