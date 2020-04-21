@@ -77,5 +77,5 @@ function generatePrevHash(prevHash, length=10){
 }
 ```
 
-Simply, you can verify and generate the previous hash chain in here: https://freedogeon.github.io/the-moon-game/
+Simply, you can verify and generate the previous hash of the chain in here: https://freedogeon.github.io/the-moon-game/
 You can find the source at `index.html` file.
